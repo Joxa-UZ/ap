@@ -1,0 +1,62 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    margin-bottom: 100px;
+    height: 200px;
+    background-image: url("./images/International_Pokémon_logo.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50%) calc(50%);
+}
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 0 5px;
+    list-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 3px 10px 2px #000, inset 1px 2px 5px 3px #000;
+}
+.span-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.site-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.new-number{
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    width: 30px;
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 20px;
+}
+.new-time{
+    position: absolute;
+    bottom: 40px;
+    right: -15px;
+    width: 30px;
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #f00;
+}
